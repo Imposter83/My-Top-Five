@@ -1,25 +1,42 @@
 <template>
   <h1>My Top Five</h1>
+  <nav>
+   <ul>
+    <li>Home</li>
+    <li>Contact</li>
+    <li>About Us</li>
+   </ul>
+  </nav>
+  <main>
+  <p>The Beatles</p>
+  <img src="" alt="">
+  <div>
+
+
+  </div>
+  <p>Pink Floyd</p>
+  <img src="" alt="">
+  <div>
+
+  </div>
+  <p>The Prince</p>
+  <img src="" alt="">
+  <div>
+
+  </div>
+
+  <p>Radiohead</p>
+  <img src="" alt="">
+  <div>
+
+  </div>
+  <p>Sting</p>
+  <img src="" alt="">
+  <div>
+
+  </div>
+
+  </main>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-/* eslint-disable vue/no-unused-components */
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
