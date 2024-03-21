@@ -1,11 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>My Top Five</h1>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+/* eslint-disable vue/no-unused-components */
 export default {
   name: 'App',
   components: {
