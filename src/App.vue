@@ -14,7 +14,7 @@
     </div>
     <p>Pink Floyd</p>
     <div class="container">
-      <img src="@/assets/images/pink-floyd-seeklogo.png" />
+      <img src="@/assets/images/Pink Floyd.jpg" />
     </div>
     <p>The Prince</p>
     <div class="container">
@@ -22,7 +22,7 @@
     </div>
     <p>Radiohead</p>
     <div class="container">
-      <img src="@/assets/images/Radiohead.png" />
+      <img src="@/assets/images/Radiohead.jpg" />
     </div>
     <p>Sting</p>
     <div class="container">
@@ -35,7 +35,6 @@
   width: 1000px;
   height: auto;
 }
-
 .container img {
   max-width: 100%;
   max-height: 100%;
@@ -50,16 +49,33 @@ li {
   margin-right: 10px;
 }
 h1 {
-  color: blanchedalmond;
-  background-color: blue;
+  color: yellow;
+  background-color: green;
   text-align: center;
   font-family: verdana;
   font-size: 300%;
 }
 p {
-  color: blanchedalmond;
-  background-color: blue;
+  color: yellow;
+  background-color: green;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 160%;
+  font-size: 150%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: yellow;
+  line-height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  color: yellow;
+  font-size: larger;
+}
+body {
+  background-image: url("~/src/assets/images/background.jpg");
 }
 </style>
