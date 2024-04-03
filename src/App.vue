@@ -3,8 +3,7 @@
   <nav>
     <ul>
       <li>Home</li>
-      <li>Contact</li>
-      <li>About Me</li>
+      <li><a href="~/src/Contact/index.html">Contact</a></li>
     </ul>
   </nav>
   <main>
