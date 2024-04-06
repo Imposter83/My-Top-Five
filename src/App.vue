@@ -1,33 +1,53 @@
 <template>
-  <h1>My Top Five</h1>
-  <nav>
-    <ul>
-      <li>Home</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
-  <main>
-    <p>The Beatles</p>
-    <div class="container">
-      <img src="@/assets/images/Beatles.png" />
-    </div>
-    <p>Pink Floyd</p>
-    <div class="container">
-      <img src="@/assets/images/Pink Floyd.jpg" />
-    </div>
-    <p>The Prince</p>
-    <div class="container">
-      <img src="@/assets/images/Prince.png" />
-    </div>
-    <p>Radiohead</p>
-    <div class="container">
-      <img src="@/assets/images/Radiohead.jpg" />
-    </div>
-    <p>Sting</p>
-    <div class="container">
-      <img src="@/assets/images/Sting.jpg" />
-    </div>
-  </main>
+  <div id="app">
+    <nav>
+
+<router-link to="/">Contact</router-link>
+</nav>
+
+<router-view />
+
+</div>
+
+</template>
+
+<script>
+import Contact from './views/Contact.vue';
+
+
+export default{
+
+ContactPage}
+  <h1>
+    'MyTopFive'
+    <h1>
+  <><nav>
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+      </ul> 
+    </nav><main>
+        <p>The Beatles</p>
+        <div class="container">
+          <img src="@/assets/images/Beatles.png" />
+        </div>
+        <p>Pink Floyd</p>
+        <div class="container">
+          <img src="@/assets/images/Pink Floyd.jpg" />
+        </div>
+        <p>The Prince</p>
+        <div class="container">
+          <img src="@/assets/images/Prince.png" />
+        </div>
+        <p>Radiohead</p>
+        <div class="container">
+          <img src="@/assets/images/Radiohead.jpg" />
+        </div>
+        <p>Sting</p>
+        <div class="container">
+          <img src="@/assets/images/Sting.jpg" />
+        </div>
+      </main></>
 </template>
 <style>
 .container {
