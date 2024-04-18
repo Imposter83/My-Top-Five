@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import ContactView from '../views/ContactView.vue';
 import BeatlesView from '../views/BeatlesView.vue';
+import PinkFloydView from '../views/PinkFloydView.vue';
+import PrinceView from '../views/PrinceView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,6 +31,16 @@ const router = createRouter({
       path: '/beatles',
       name: 'beatles',
       component: BeatlesView,
+    },
+    {
+      path: '/pink-floyd',
+      name: 'pink-floyd',
+      component: PinkFloydView,
+    },
+    {
+      path: '/prince',
+      name: 'prince',
+      component: PrinceView,
     },
   ],
 });

@@ -14,6 +14,10 @@
       <RouterLink to="/contact">Contact</RouterLink>
       <span>&nbsp;|&nbsp;</span>
       <RouterLink to="/beatles">The Beatles</RouterLink>
+      <span>&nbsp;|&nbsp;</span>
+      <RouterLink to="/pink-floyd">Pink Floyd</RouterLink>
+      <span>&nbsp;|&nbsp;</span>
+      <RouterLink to="/prince">Prince</RouterLink>
     </nav>
   </header>
   <br />

@@ -11,7 +11,6 @@
   <div id="header">
     <img src="@/assets/images/Beatles.png" />
   </div>
-
   <ul id="nav">
     <li><a href="#">Home</a></li>
     <li><a href="#">Contact</a></li>
@@ -250,6 +249,7 @@
   }
   a img {
     display: block;
+    max-width: 100%;
     margin-bottom: 20px;
     border: 1px solid #fff;
   }
