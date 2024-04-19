@@ -18,6 +18,10 @@
       <RouterLink to="/pink-floyd">Pink Floyd</RouterLink>
       <span>&nbsp;|&nbsp;</span>
       <RouterLink to="/prince">Prince</RouterLink>
+      <span>&nbsp;|&nbsp;</span>
+      <RouterLink to="/radiohead">Radiohead</RouterLink>
+      <span>&nbsp;|&nbsp;</span>
+      <RouterLink to="/sting">Sting</RouterLink>
     </nav>
   </header>
   <br />
