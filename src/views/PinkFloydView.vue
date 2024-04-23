@@ -12,12 +12,12 @@
     <img src="@/assets/images/Pink Floyd.jpg" />
   </div>
   <ul id="nav">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">The Beatles</a></li>
-    <li><a href="#">Prince</a></li>
-    <li><a href="#">Radiohead</a></li>
-    <li><a href="#">Sting</a></li>
+    <li><a @click="$router.push('/')">Home</a></li>
+    <li><a @click="$router.push('/contact')">Contact</a></li>
+    <li><a @click="$router.push('/beatles')">The Beatles</a></li>
+    <li><a @click="$router.push('/prince')">Prince</a></li>
+    <li><a @click="$router.push('/radiohead')">Radiohead</a></li>
+    <li><a @click="$router.push('/sting')">Sting</a></li>
   </ul>
   <div>
     <h1>MY TOP FIVE</h1>
@@ -162,14 +162,14 @@
     padding-top: 40px;
   }
   a {
-    color: #333;
+    color: #ccc;
     text-decoration: none;
   }
   a:visited {
     text-decoration: underline;
   }
   a:hover {
-    color: #ccc;
+    color: gray;
   }
   #header {
     width: 580px;
